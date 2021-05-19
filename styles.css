@@ -517,6 +517,7 @@ footer .footer_sections , .section___1, .section___2, .section___3 {
 
 footer .footer_sections , .section___1, .section___2, .section___3, ul {
     list-style-type: none;
+    flex-direction: column-reverse;
 }
 
 footer .footer_sections , .section___1 {
@@ -544,3 +545,6 @@ ul {
     list-style-type: none;
 }
 
+footer .footer_sections , .section___2 {
+
+}
