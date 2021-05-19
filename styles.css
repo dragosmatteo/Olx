@@ -31,7 +31,7 @@ header .section--1 {
     font-family:Arial, Helvetica, sans-serif;
 }
 
-header .section--1 .nav, .section__1 {
+header .section--1 .nav, .section__1, footer {
     width: 1238px;
     margin-right: auto;
     margin-left: auto;
@@ -472,8 +472,8 @@ container .section__1 .categorii_list .lista .item .des:hover {
     width:1400px;
     margin-right: auto;
     margin-left: auto;
-    /* padding-right: 24px; */
-    /* padding-left: 24px;     */
+    padding-right: 24px;
+    padding-left: 24px;    
     display: flex;
 }
 
@@ -502,6 +502,33 @@ footer {
     width: 100%;
     min-height:450px;
     border-top: 1px solid #7f9799;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: inherit;
+    display: inline-block;
+}
+
+footer .footer_sections , .section___1, .section___2, .section___3 {
+    text-align: left;
+    width: 297px;
+    margin: 0 15px 0 0;
+    color: var(--color-bg-1);
+}
+
+
+footer .footer_sections , .section___1, .section___2, .section___3, ul {
+    list-style-type: none;
+}
+
+footer .footer_sections , .section___1 {
+    padding-top: 30px;
+    padding-left: 60px;
+}
+
+    
+footer .footer_sections .section___1, .section___2 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2.30;
 }
 
 
