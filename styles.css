@@ -94,12 +94,12 @@ header .section--1 .nav .nav_2 .anunt {
 
 header .section--1 .nav .nav_2 .anunt:hover {
     color: #fff;
-    transition: all 0.4s;
+    transition: all 0.3s ease 0s;
     border: 5px solid #fefefe;
     background-color: #002f34;
     padding: 12px 18px;
     top: -67px;
-    /* filter: invert(); */
+    color: #fff;
 }
 
  a, a:hover, a:focus, a:active {
@@ -190,20 +190,21 @@ header .section--2 .input .form .input_2::placeholder {
 
 
 header .section--2 .input .form .cauta {
-    font-size: 20px;
+    font-size: 18px;
     position: relative;
+    font-family: Arial, Helvetica, sans-serif;
     color: #002f34;
     background-color: #fefefe;
     top: -77px;
     right: -1050px;
-    padding:21px 10px 21px ;
+    padding:22px 10px 22px ;
 }
 
 
 header .section--2 .input .form .cauta:hover{
-    color: #ffffff;
+    color: rgb(255, 255, 255);
     background-color: #002f34;
-    transition: all 0.5s;
+    transition: all 0.1s ease-in 0s;
 }
 
 
@@ -279,8 +280,7 @@ container .section__1 .categorii_list .lista .item .image {
 container .section__1 .categorii_list .lista .item .des:hover {
     background-color: #002f34;
     padding: 5px 7px 5px 7px;
-    color: #fff;    
-    text-align: center;
+    color:rgb(255, 255, 255)  
 }
 
 /* !! */
@@ -357,15 +357,12 @@ container .section__1 .categorii_list .lista .item .des:hover {
    padding: 15px 22px;
    position: relative;
    right: -50px;
-   /* text-align: center; */
 }
 
 .container .section__3 .action:hover {
     color: #fff;
     transition: all 0.4s;
-    /* border: 2px solid #fefefe; */
     background-color: #002f34;
-    /* padding: 15px 22px; */
 }
 
 /* !! */
