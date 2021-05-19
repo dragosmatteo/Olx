@@ -525,10 +525,22 @@ footer .footer_sections , .section___1 {
 }
 
     
-footer .footer_sections .section___1, .section___2 {
+footer .footer_sections .section___1, .section___2 , .section___3{
     font-size: 16px;
     font-weight: 500;
     line-height: 2.30;
+    display: inline;
 }
 
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    list-style-type: none;
+}
 
