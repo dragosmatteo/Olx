@@ -512,12 +512,17 @@ footer .footer_sections , .section___1, .section___2, .section___3 {
     width: 297px;
     margin: 0 15px 0 0;
     color: var(--color-bg-1);
+    display:grid;
+    grid-template-columns:350px 150px;
 }
 
+ul {
+    display: inline-block;
+}
 
 footer .footer_sections , .section___1, .section___2, .section___3, ul {
     list-style-type: none;
-    flex-direction: column-reverse;
+    padding-bottom: 5px;
 }
 
 footer .footer_sections , .section___1 {
@@ -529,7 +534,7 @@ footer .footer_sections , .section___1 {
 footer .footer_sections .section___1, .section___2 , .section___3{
     font-size: 16px;
     font-weight: 500;
-    line-height: 2.30;
+    line-height: 2.20;
     display: inline;
 }
 
@@ -545,6 +550,6 @@ ul {
     list-style-type: none;
 }
 
-footer .footer_sections , .section___2 {
-
+footer .footer_sections .section___2 {
+    padding-top: 28px;
 }
