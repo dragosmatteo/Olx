@@ -469,7 +469,7 @@ container .section__1 .categorii_list .lista .item .des:hover {
 }
 
 .container .section__5 .randuri {
-    width:1500px;
+    width:1400px;
     margin-right: auto;
     margin-left: auto;
     /* padding-right: 24px; */
@@ -479,7 +479,7 @@ container .section__1 .categorii_list .lista .item .des:hover {
 
 .container .section__5 .randuri .row1, .row2 {
     flex: 50%;
-    padding: 80px 0px 100px 110px;
+    padding: 80px 50px 100px 40px;
     text-align:justify;
     font-size: 15px;
     font-style: inherit;
@@ -500,7 +500,8 @@ container .section__1 .categorii_list .lista .item .des:hover {
 footer {
     background-color: #f2f4f5;
     width: 100%;
-    height: 515px;
+    min-height:450px;
+    border-top: 1px solid #7f9799;
 }
 
 
