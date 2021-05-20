@@ -510,7 +510,8 @@ footer .footer_sections , .section___1, .section___2, .section___3 {
     margin: 0 15px 0 0;
     color: var(--color-bg-1);
     display:grid;
-    grid-template-columns:350px 350px;
+    grid-template-columns:350px auto;
+    grid-template-rows: 400px;
 }
 
 ul {
@@ -553,12 +554,32 @@ footer .footer_sections .section___2 {
 
 /* !! Section 3 */
 
+footer .footer_sections .section___3 .sc {
+    height: 45px;
+    width: 305px;
+    margin-bottom: 30px;
+    margin-top:-6px;
+    padding-right:10px ;
+    font-size: xx-large;
+}
+
+footer .footer_sections .section___3 .app {
+    width: 300px;
+    height: auto;
+    position: relative;
+    left: -10px;
+    
+}
+
 footer .footer_sections .section___3 {
     font-size: 13px;
 }
 
 
 
+
+
+/* ! In plus ! */
 
 .coded {
     text-align: center;
