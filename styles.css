@@ -203,7 +203,7 @@ header .section--2 .input .form .cauta {
     background-color:var(--color-bg-2);
     top: -79px;
     right: -1050px;
-    padding:22px 10px 22px ;
+    padding:22px 10px;
 }
 
 
@@ -214,7 +214,7 @@ header .section--2 .input .form .cauta:hover{
 }
 
 
-header .section--2 .input .form .search:hover {
+header .section--2 .input .form .search:hover , .cauta:hover {
     fill: var(--color-bg-3)
 }
 
