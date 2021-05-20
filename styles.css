@@ -572,7 +572,10 @@ footer .footer_sections .section___3 .app {
 }
 
 footer .footer_sections .section___3 {
-    font-size: 13px;
+    font-size: 14px;
+    position: absolute;
+    right: 450px;
+    padding-top: 40px;
 }
 
 
@@ -587,7 +590,8 @@ footer .footer_sections .section___3 {
     font-weight: 500;
     font-style: inherit;
     font-size: large;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
 
 .link {
