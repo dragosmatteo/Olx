@@ -24,6 +24,11 @@ body {
     height: 100%;
     box-sizing: border-box;
     overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: inherit;
+    font-weight: 500;
+    margin: auto;
+    height: auto;
 }
 
 header .section--1 {
@@ -171,7 +176,7 @@ header .section--2 .input .form .input_2 {
     padding: 10px 40px  10px 50px;
     background-color: var(--color-bg-2);
     border: 0px;
-    top: -10px;
+    top: -12px;
     right: -600px;
     outline: 0;
 }
@@ -196,7 +201,7 @@ header .section--2 .input .form .cauta {
     font-family: Arial, Helvetica, sans-serif;
     color: #002f34;
     background-color:var(--color-bg-2);
-    top: -77px;
+    top: -79px;
     right: -1050px;
     padding:22px 10px 22px ;
 }
@@ -204,8 +209,8 @@ header .section--2 .input .form .cauta {
 
 header .section--2 .input .form .cauta:hover{
     color: var(--color-bg-2);
-    background-color: #002f34;
-    transition: all 0.1s ease-in 0s;
+    background-color: var(--color-bg-1);
+    transition: all 0.5s ease-in-out;
 }
 
 
@@ -286,6 +291,7 @@ container .section__1 .categorii_list .lista .item .des:hover {
 
 /* !! */
 
+
 .container .section__2 {
     background-color:var(--color-bg-4);
     width: 100%;
@@ -296,10 +302,29 @@ container .section__1 .categorii_list .lista .item .des:hover {
 .container .section__2 .categorii {
     text-align: center;
     padding-top:50px;
-    font-style: inherit;
     font-size: 35px;
-    font-family: Arial, Helvetica, sans-serif;
+    padding: auto;
+    margin: auto;
 }
+
+
+
+
+
+
+
+
+/* .container .section__2 .link_large_rel {
+    text-align: center;
+    font-size: 18px; 
+    position: relative;
+    top: 1570px;
+    border: 3px solid #002f34;
+    /* padding: 20px 30px; */
+    /* box-sizing: border-box;
+} */ 
+
+/* transition: all 0.3s ease-in-out; */
 
 /* !! */
 
@@ -362,8 +387,9 @@ container .section__1 .categorii_list .lista .item .des:hover {
 
 .container .section__3 .action:hover {
     color: var(--color-bg-3);
-    transition: all 0.4s;
+    transition: all 0.4s ease-in-out;
     background-color: #002f34;
+    border: 3px solid var(--color-bg-3);
 }
 
 /* !! */
