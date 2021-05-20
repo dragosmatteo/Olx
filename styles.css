@@ -510,7 +510,7 @@ footer .footer_sections , .section___1, .section___2, .section___3 {
     margin: 0 15px 0 0;
     color: var(--color-bg-1);
     display:grid;
-    grid-template-columns:350px 150px;
+    grid-template-columns:350px 350px;
 }
 
 ul {
@@ -524,7 +524,7 @@ footer .footer_sections , .section___1, .section___2, .section___3, ul {
 
 footer .footer_sections , .section___1 {
     padding-top: 30px;
-    padding-left: 60px;
+    padding-left: 40px;
 }
 
     
@@ -549,4 +549,23 @@ ul {
 
 footer .footer_sections .section___2 {
     padding-top: 28px;
+}
+
+
+footer .footer_sections .section___3 .sc .fb , .ig, .yt{
+    width: 30px;
+    height: 20px;
+}
+
+footer .footer_sections .section___3 .sc {
+    display: flex;
+    padding: 0;
+    margin: 0 0 30px -12px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer .footer_sections .section___3 p {
+    font-size: 10px;
+
 }
