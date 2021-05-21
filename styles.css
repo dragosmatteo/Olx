@@ -344,11 +344,17 @@ container .section__1 .categorii_list .lista .item .des:hover {
     justify-content: space-between;
 }
 
+
 .container .section__2  .gallerywide .wrap {
     text-align: left;
     list-style-type: none;
 }
-
+/* 
+.container .section__2  .gallerywide .wrap .text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+} */
 
 .container .section__2  .gallerywide .wrap .mheight .img_anunt {
     width: 260px;
@@ -358,8 +364,6 @@ container .section__1 .categorii_list .lista .item .des:hover {
 .container .section__2  .gallerywide .wrap .inner {
     padding: 25px 0;
     margin-bottom: auto;
-    display: flex;
-    flex-direction: column;
 }
 
 .container .section__2  .gallerywide .wrap .inner_1 {
