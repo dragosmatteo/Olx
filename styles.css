@@ -732,3 +732,9 @@ footer .footer_sections .section___3 {
     color: #002f34;
     transition: all 1s ease-in-out;
 }
+
+.sticky {
+  position: fixed;
+  opacity: 0.99;
+  z-index: 1;
+}
