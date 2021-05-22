@@ -4,6 +4,7 @@
     --color-bg-3:#ffffff;
     --color-bg-4:#f2f4f5;
     --color-bg-5:#cbf7ee;
+    --color-bg-6:#737373;
 }
 
 * {
@@ -32,7 +33,6 @@ header .section--1 {
     background-color:var(--color-bg-1);
     width: 100%;
     height: 80px;
-    font-family:Arial, Helvetica, sans-serif;
 }
 
 header .section--1 .nav, .section__1, footer {
@@ -61,7 +61,6 @@ header .section--1 .nav_1 .logo {
 header .section--1 .nav .nav_2 .heart {
     position: relative;
     width: 22px;
-    /* display: inline-block; */
     top:-65px;
     right: -280px;
 }
@@ -72,8 +71,6 @@ header .section--1 .nav .nav_2 .user {
     top:-55px;
     right: -335px;
 }
-
-
 
 header .section--1 .nav .nav_2 p {
     position: relative;
@@ -130,7 +127,6 @@ header .section--2 .input {
     align-items: center;
 }
 
-
 header .section--2 .input .form .search , .search1, .map {
     width: 30px;
     position: relative;
@@ -185,7 +181,7 @@ header .section--2 .input .form .input_2 {
     border-top: 1px solid rgb(225, 226, 227);
     border-bottom: 1px solid rgb(225, 226, 227);
     border-left: 1px solid rgb(225, 226, 227);
-    /* border-right:1px solid rgb(225, 226, 227);  */
+    border-right:1px solid rgb(225, 226, 227); 
     z-index: 2;
 }
 
@@ -204,8 +200,6 @@ header .section--2 .input .form .input_2::placeholder {
     top:8px;
     right: 15px;
 }
-
-
 
 header .section--2 .input .form .cauta {
     font-size: 18px;
@@ -234,8 +228,6 @@ header .section--2 .input .form .search:hover , .cauta:hover {
     fill: var(--color-bg-3)
 }
 
-
-
 header .section--2 .input .form .search1{
     position: relative;
     right: -1180px;
@@ -244,14 +236,11 @@ header .section--2 .input .form .search1{
     z-index: 4;
 }
 
-
 /* !! Container */
-
 .container .section__1 {
     background-color: var(--color-bg-2);
     width: 100%;
     height: 650px;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .container .section__1 .categorii {
@@ -265,7 +254,6 @@ container .section__1 .categorii_list {
     margin-top: 39px;
     display: flex;
     flex-wrap: wrap;
-    /* overflow-wrap: anywhere; */
 }
 
 container .section__1 .categorii_list .lista {
@@ -305,9 +293,7 @@ container .section__1 .categorii_list .lista .item .des:hover {
     color:var(--color-bg-3)  
 }
 
-/* !! */
-
-
+/* !Container 2! */
 .container .section__2 {
     background-color:var(--color-bg-4);
     width: 100%;
@@ -338,7 +324,6 @@ container .section__1 .categorii_list .lista .item .des:hover {
     padding: 50px 200px;
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: space-between; */
 }
 
 
@@ -346,15 +331,12 @@ container .section__1 .categorii_list .lista .item .des:hover {
     min-width: 0;
     display: flex;
     flex-direction: column;
-    /* flex-flow: row wrap; */
     background:var(--color-bg-3);
     padding: 20px;
     position: relative;
     box-sizing: border-box;
     border-radius: 4px;
-    /* margin-left: 15px; */
     margin-top: 15px;
-    /* width: 300px; */
     height: 350px;
     justify-content: space-between;
     width: calc(25% - 1rem);
@@ -449,16 +431,13 @@ container .section__1 .categorii_list .lista .item .des:hover {
     padding: 10px 30px;
 }
 
-
  .container .section__2  .center:hover {
      transition: all 0.3s ease-in-out;
      border: 5px solid var(--color-bg-1);
  }
 
 
-
-/* !! */
-
+/* !Container 3! */
 .container .section__3 {
     background-color:var(--color-bg-1);
     width: 100%;
@@ -499,15 +478,13 @@ container .section__1 .categorii_list .lista .item .des:hover {
     font-weight: 500;
     line-height: 1.25;
     color: var(--color-bg-3);
-    font-family: Arial, Helvetica, sans-serif;
     font-style: inherit;
 }
 
 
 .container .section__3 .action {
    background-color: var(--color-bg-2);;
-   color: #002f34;
-   font-family: Arial, Helvetica, sans-serif;
+   color:var(--color-bg-1);
    font-size: 12px;
    font-style: inherit;
    border-radius:5px;
@@ -525,16 +502,12 @@ container .section__1 .categorii_list .lista .item .des:hover {
     border: 3px solid var(--color-bg-3);
 }
 
-/* !! */
-
-
-
+/* !Container 4! */
 .container .section__4 {
     background-color: var(--color-bg-5);
     width: 100%;
     height: 510px;
 }
-
 
 .container .section__4 .olx {
     display: block;
@@ -545,7 +518,6 @@ container .section__1 .categorii_list .lista .item .des:hover {
 }
 
 .container .section__4 .continut {
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
     font-style: inherit;
     width: 850px;
@@ -560,7 +532,6 @@ container .section__1 .categorii_list .lista .item .des:hover {
     word-spacing: 2px;
     text-align:center;
 }
-
 
 .container .section__4 .social {
     display: block;
@@ -608,16 +579,13 @@ container .section__1 .categorii_list .lista .item .des:hover {
     position: relative;
     text-align: center;
     font-style: inherit;
-    color: #737373;
+    color: var(--color-bg-6);
     font-size: 13px;
     top: 60px;
     word-spacing: 1px;
 }
 
-/* !! */
-
-
-
+/* !Container 5! */
 .container .section__5 {
     background-color: var(--color-bg-4);
     width: 100%;
@@ -639,7 +607,6 @@ container .section__1 .categorii_list .lista .item .des:hover {
     text-align:justify;
     font-size: 15px;
     font-style: inherit;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .container .section__5 .randuri .doc, .doc1{
@@ -650,8 +617,6 @@ container .section__1 .categorii_list .lista .item .des:hover {
     height: 180px;
 }
 
-
-    
 /* !Footer! */
 footer {
     background-color: var(--color-bg-4);
@@ -712,7 +677,6 @@ footer .footer_sections .section___2 {
 }
 
 /* !! Section 3 */
-
 footer .footer_sections .section___3 .sc {
     height: 45px;
     width: 305px;
@@ -738,7 +702,6 @@ footer .footer_sections .section___3 {
 }
 
 /* ! In plus ! */
-
 .coded {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
