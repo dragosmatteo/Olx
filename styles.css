@@ -103,7 +103,7 @@ header .section--1 .nav .nav_2 .anunt {
 
 header .section--1 .nav .nav_2 .anunt:hover {
     color:var(--color-bg-3);
-    transition: all 0.3s ease 0s;
+    transition: all 0.3s ease-in-out;
     background-color: #002f34;
     padding: 10px 17px;
     border-color: var(--color-bg-3);
@@ -189,7 +189,7 @@ header .section--2 .input .form .input_2 {
     border-bottom: 1px solid rgb(225, 226, 227);
     border-left: 1px solid rgb(225, 226, 227);
     /* border-right:1px solid rgb(225, 226, 227);  */
-    z-index: 3;
+    z-index: 2;
 }
 
 
@@ -197,7 +197,7 @@ header .section--2 .input .form .map {
     position: relative;
     right: 30px;
     width: 25px;
-    z-index: 4;
+    z-index: 3;
 }
 
 header .section--2 .input .form .input_2::placeholder {
@@ -218,7 +218,7 @@ header .section--2 .input .form .cauta {
     top: -83px;
     right: -1050px;
     padding:22px 10px;
-    z-index: 6;
+    z-index: 4;
     border-top: 1px solid rgb(225, 226, 227);
     border-bottom: 1px solid rgb(225, 226, 227);
     border-left: 1px solid rgb(225, 226, 227);
@@ -244,7 +244,7 @@ header .section--2 .input .form .search1{
     right: -1180px;
     top: -130px;
     width: 27px;
-    z-index: 10;
+    z-index: 4;
 }
 
 
@@ -363,7 +363,7 @@ container .section__1 .categorii_list .lista .item .des:hover {
     width: calc(25% - 1rem);
 }
 
-.container .section__2  .gallerywide > li:not(:nth-child(4)) {
+.container .section__2  .gallerywide > li:not(:nth-child(4n)) {
     margin-right: 1.33rem;
 }
 
@@ -437,20 +437,27 @@ container .section__1 .categorii_list .lista .item .des:hover {
     color: var(--color-bg-1);
 } */
 
- .container .section__2 button { 
-    text-align: center;
+ .container .section__2  .win {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .container .section__2  .center{ 
     font-size: 18px; 
-    margin-top: 20px;
     background-color: var(--color-bg-4);
     border-radius: 4px;
     box-sizing: border-box;
     border: 3px solid var(--color-bg-1);
-    padding: 10px 40px;
-    cursor: pointer;
+    padding: 10px 30px;
 }
 
 
-/* transition: all 0.3s ease; */
+ .container .section__2  .center:hover {
+     transition: all 0.3s ease-in-out;
+     border: 5px solid var(--color-bg-1);
+ }
+
 
 
 /* !! */
@@ -554,7 +561,7 @@ container .section__1 .categorii_list .lista .item .des:hover {
     line-height: 25px;
     color:var(--color-bg-1);
     word-spacing: 2px;
-    text-align:unset;
+    text-align:center;
 }
 
 
