@@ -90,13 +90,13 @@ header .section--1 .nav .nav_2 p {
 
 header .section--1 .nav .nav_2 .anunt {
     position: relative;
-    top:-65px;
+    top:-67px;
     right: -435px;
     color: #002f34;
     text-decoration: none;
     background-color:var(--color-bg-2);
     text-decoration: none;
-    padding: 15px 22px;
+    padding: 10px 17px;
     border-radius: 7px;
     border: 5px solid transparent;
 }
@@ -105,8 +105,7 @@ header .section--1 .nav .nav_2 .anunt:hover {
     color:var(--color-bg-3);
     transition: all 0.3s ease 0s;
     background-color: #002f34;
-    padding: 12px 18px;
-    top: -67px;
+    padding: 10px 17px;
     border-color: var(--color-bg-3);
 }
 
@@ -145,8 +144,8 @@ header .section--2 .input .form .search , .search1, .map {
 header .section--2 .input .form .search {
     width: 30px;
     position: relative;
-    top: 60px;
-    z-index: 1;
+    top: 57px;
+    z-index: 2;
     right: -15px;
 }
 
@@ -164,6 +163,11 @@ header .section--2 .input .form .input_1 {
     top: 55px;
     left: -40px;
     outline: 0;
+    border-top: 1px solid rgb(225, 226, 227);
+    border-bottom: 1px solid rgb(225, 226, 227);
+    border-left: 1px solid rgb(225, 226, 227);
+    border-right:1px solid rgb(225, 226, 227); ;
+    z-index: 1;
 }
 
 header .section--2 .input .form .input_1::placeholder {
@@ -173,14 +177,19 @@ header .section--2 .input .form .input_1::placeholder {
 }
 
 header .section--2 .input .form .input_2 {
-    font-size: 40px;
+    font-size: 30px;
     position: relative;
-    padding: 10px 40px  10px 50px;
+    padding: 10px 40px  22px 50px;
     background-color: var(--color-bg-2);
     border: 0px;
-    top: -12px;
-    right: -600px;
+    top: -14px;
+    right: -700px;
     outline: 0;
+    border-top: 1px solid rgb(225, 226, 227);
+    border-bottom: 1px solid rgb(225, 226, 227);
+    border-left: 1px solid rgb(225, 226, 227);
+    /* border-right:1px solid rgb(225, 226, 227);  */
+    z-index: 3;
 }
 
 
@@ -188,11 +197,15 @@ header .section--2 .input .form .map {
     position: relative;
     right: 30px;
     width: 25px;
+    z-index: 4;
 }
 
 header .section--2 .input .form .input_2::placeholder {
     text-align: center;
-    font-size: 25px;
+    font-size: 18px;
+    position: relative;
+    top:8px;
+    right: 15px;
 }
 
 
@@ -200,19 +213,23 @@ header .section--2 .input .form .input_2::placeholder {
 header .section--2 .input .form .cauta {
     font-size: 18px;
     position: relative;
-    font-family: Arial, Helvetica, sans-serif;
     color: var(--color-bg-1);
     background-color:var(--color-bg-2);
-    top: -79px;
+    top: -83px;
     right: -1050px;
     padding:22px 10px;
+    z-index: 6;
+    border-top: 1px solid rgb(225, 226, 227);
+    border-bottom: 1px solid rgb(225, 226, 227);
+    border-left: 1px solid rgb(225, 226, 227);
+    border-right:1px solid rgb(225, 226, 227); 
 }
 
 
 header .section--2 .input .form .cauta:hover{
     color: var(--color-bg-2);
     background-color: var(--color-bg-1);
-    transition: all 0.5s ease-in-out;
+    transition: all 0.1s ease-in-out;
 }
 
 
@@ -225,8 +242,9 @@ header .section--2 .input .form .search:hover , .cauta:hover {
 header .section--2 .input .form .search1{
     position: relative;
     right: -1180px;
-    top: -122px;
+    top: -130px;
     width: 27px;
+    z-index: 10;
 }
 
 
@@ -287,7 +305,6 @@ container .section__1 .categorii_list .lista .item .image {
 
 container .section__1 .categorii_list .lista .item .des:hover {
     background-color: #002f34;
-    padding: 5px 7px 5px 7px;
     color:var(--color-bg-3)  
 }
 
@@ -337,7 +354,6 @@ container .section__1 .categorii_list .lista .item .des:hover {
     padding: 20px;
     position: relative;
     box-sizing: border-box;
-    /* height: 378px; */
     border-radius: 4px;
     /* margin-left: 15px; */
     margin-top: 15px;
@@ -384,11 +400,11 @@ container .section__1 .categorii_list .lista .item .des:hover {
     margin-bottom: 20px;
 }
 
-/* .container .section__2  .gallerywide .wrap .inner h4:hover {
+.container .section__2  .gallerywide .wrap .inner h4:hover {
     color: var(--color-bg-3);
     background-color: var(--color-bg-1);
     cursor: pointer;
-} */
+}
 
 .container .section__2 .wrap .date_location {
     font-size: 12px;
@@ -402,7 +418,7 @@ container .section__1 .categorii_list .lista .item .des:hover {
 .container .section__2 .wrap .price {
     font-size: 18px;
     display: inline-block;
-    margin-top: 7px;
+    margin-top: 10px;
 }
 
 .container .section__2 .wrap .favtab {
@@ -494,6 +510,8 @@ container .section__1 .categorii_list .lista .item .des:hover {
    padding: 15px 22px;
    position: relative;
    right: -50px;
+   box-sizing: border-box;
+   border: 3px solid transparent;
 }
 
 .container .section__3 .action:hover {
