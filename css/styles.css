@@ -184,7 +184,6 @@ header .section--2 .input .form .input_2 {
     z-index: 2;
 }
 
-
 header .section--2 .input .form .map {
     position: relative;
     right: 30px;
@@ -221,7 +220,6 @@ header .section--2 .input .form .cauta:hover{
     background-color: var(--color-bg-1);
     transition: all 0.1s ease-in-out;
 }
-
 
 header .section--2 .input .form .search:hover , .cauta:hover {
     fill: var(--color-bg-3)
@@ -298,7 +296,6 @@ container .section__1 .categorii_list .lista .item .des:hover {
     width: 100%;
     height: 1773px;
 }
-
 
 .container .section__2 .categorii {
     text-align: center;
@@ -378,7 +375,7 @@ container .section__1 .categorii_list .lista .item .des:hover {
     margin-bottom: 20px;
 }
 
-.container .section__2  .gallerywide .wrap .inner h4:hover {
+.container .section__2  .gallerywide .wrap .inner .img_anunt_link:hover {
     color: var(--color-bg-3);
     background-color: var(--color-bg-1);
     cursor: pointer;
