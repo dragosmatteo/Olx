@@ -47,14 +47,15 @@ header .section--1 .nav .nav_2 {
     text-align: left;
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;  
 }
 
 /* !! Section 1 (Nav bar) */
 
 header .section--1 .nav_1 .logo {
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 80px;
 }
 
