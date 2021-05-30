@@ -168,9 +168,20 @@ header .section--2 .form .second .input_2 {
 
 header .section--2 .form .second .map{
     width: 20px;
-    margin-left: px;
 }
 
+header .section--2 .form .third {
+    padding:33px 25px 21px 33px ;
+    background-color: var(--color-bg-3);
+    border-right: 1px solid #f2f4f5;
+    display: flex;
+    align-items: center;
+}
+
+header .section--2 .form .third .search1 {
+    width: 20px;
+    margin-left: 10px;
+}
 
 header .section--2 .input .input_1 , .input_2 {
     border: none;
