@@ -5,7 +5,6 @@ let sticky = navbar.getBoundingClientRect().height;
 
 
 // !! Sticky navigation
-
 const navbarScroll = () => {
   if (window.pageYOffset >= sticky) {
     navbar.classList.add('sticky')
