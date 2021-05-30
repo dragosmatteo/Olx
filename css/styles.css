@@ -150,7 +150,7 @@ header .section--2 .form .first .input_1 {
 }
 
 header .section--2 .form .first .input_1::placeholder{
-    color: #002f34;
+    color: var(--color-bg-1);
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -159,7 +159,7 @@ header .section--2 .form .first .input_1::placeholder{
 header .section--2 .form .second {
     padding:21px 30px 21px 30px ;
     background-color: var(--color-bg-3);
-    border-right: 1px solid #f2f4f5;
+    border-right: 1px solid var(--color-bg-4);
 }
 
 header .section--2 .input .form .second .input_2 {
@@ -175,7 +175,7 @@ header .section--2 .form .second .map{
 header .section--2 .form .cauta {
     padding:27px 50px 27px 30px ;
     background-color: var(--color-bg-3);
-    border-right: 1px solid #f2f4f5;
+    border-right: 1px solid var(--color-bg-4);
     display: flex;
     align-items: center;
     cursor: pointer;
@@ -261,7 +261,7 @@ container .section__1 .categorii_list .lista .item .image {
 }
 
 container .section__1 .categorii_list .lista .item .des:hover {
-    background-color: #002f34;
+    background-color: var(--color-bg-1);
     color:var(--color-bg-3); 
 }
 
