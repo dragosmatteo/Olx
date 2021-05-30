@@ -213,7 +213,8 @@ header .section--2 .input .input_1:focus, .input_2:focus {
 
 .container .section__1 .categorii {
     text-align: center;
-    padding-top:45px;
+    padding-top:70px;
+    padding-bottom: 10px;
     font-style: inherit;
 }
 
@@ -234,7 +235,7 @@ container .section__1 .categorii_list .lista {
 
 container .section__1 .categorii_list .lista .item a {
     font-size: 16px;
-    padding: 25px 0px 30px;
+    padding: 5px 0px;
     font-weight: 500;
     display: flex;
     flex-direction: column-reverse;
@@ -258,7 +259,7 @@ container .section__1 .categorii_list .lista .item .image {
 
 container .section__1 .categorii_list .lista .item .des:hover {
     background-color: #002f34;
-    color:var(--color-bg-3)  
+    color:var(--color-bg-3); 
 }
 
 /* !Container 2! */
