@@ -234,7 +234,7 @@ container .section__1 .categorii_list .lista {
 
 container .section__1 .categorii_list .lista .item a {
     font-size: 16px;
-    padding: 25px;
+    padding: 25px 0px 30px;
     font-weight: 500;
     display: flex;
     flex-direction: column-reverse;
