@@ -154,7 +154,6 @@ header .section--2 .form .first .input_1::placeholder{
     flex-direction: row;
 }
 
-
 header .section--2 .form .second {
     padding:21px 55px 21px 30px ;
     background-color: var(--color-bg-3);
@@ -180,7 +179,7 @@ header .section--2 .form .cauta {
 }
 
 header .section--2 .form .search1 {
-    width: 20px;
+    width: 25px;
     margin-left: -35px;
     align-items: center;
 
