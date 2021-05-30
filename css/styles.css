@@ -132,7 +132,7 @@ header .section--2 .input {
 }
 
 header .section--2 .form .first {
-    padding:22px 460px 22px 50px ;
+    padding:22px 440px 22px 50px ;
     background-color: var(--color-bg-3);
     border-right: 1px solid #f2f4f5;
 }
@@ -170,17 +170,31 @@ header .section--2 .form .second .map{
     width: 20px;
 }
 
-header .section--2 .form .third {
-    padding:33px 25px 21px 33px ;
+header .section--2 .form .cauta {
+    padding:27px 50px 27px 30px ;
     background-color: var(--color-bg-3);
     border-right: 1px solid #f2f4f5;
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
-header .section--2 .form .third .search1 {
+header .section--2 .form .search1 {
     width: 20px;
-    margin-left: 10px;
+    margin-left: -35px;
+    align-items: center;
+
+}
+
+header .section--2 .form .cauta:hover {
+    color: var(--color-bg-3);
+    background-color: var(--color-bg-1);
+    transition: 0.3s all ease-in-out;
+}
+
+header .section--2 .form .third .search1:hover {
+    color: var(--color-bg-3);
+    transition: 0.3s all ease-in-out;
 }
 
 header .section--2 .input .input_1 , .input_2 {
