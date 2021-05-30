@@ -108,129 +108,76 @@ a, a:hover, a:focus, a:active {
  }
 
 /* !! Section 2 */
-
 header .section--2 {
     background-color: var(--color-bg-4);
     width: 100%;
-    height:170px;
+    height:150px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+header .section--2 .form {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
 }
 
 header .section--2 .input {
     width: 1238px;
-    display: flex;
     margin-right: auto;
     margin-left: auto;
     padding-right: 24px;
     padding-left: 24px;
-    justify-content: space-between;
-    align-items: center;
 }
 
-header .section--2 .input .form .search , .search1, .map {
-    width: 30px;
-    position: relative;
-    top: 60px;
-    z-index: 1;
+header .section--2 .form .first {
+    padding:22px 460px 22px 50px ;
+    background-color: var(--color-bg-3);
+    border-right: 1px solid #f2f4f5;
 }
 
-header .section--2 .input .form .search {
-    width: 30px;
-    position: relative;
-    top: 57px;
-    z-index: 2;
-    right: -15px;
-}
-
-header .section--2 .input .form .map {
-    position: relative;
-    right: -500px;
-}
-
-header .section--2 .input .form .input_1 {
-    font-size: 40px;
-    position: relative;
-    padding: 10px 40px  10px 230px;
-    background-color: var(--color-bg-2);
-    border: 0px;
-    top: 55px;
-    left: -40px;
-    outline: 0;
-    border-top: 1px solid rgb(225, 226, 227);
-    border-bottom: 1px solid rgb(225, 226, 227);
-    border-left: 1px solid rgb(225, 226, 227);
-    border-right:1px solid rgb(225, 226, 227); ;
-    z-index: 1;
-}
-
-header .section--2 .input .form .input_1::placeholder {
-    font-size: 20px;
-    text-align: left;
-    position: relative;
-}
-
-header .section--2 .input .form .input_2 {
-    font-size: 30px;
-    position: relative;
-    padding: 10px 40px  22px 50px;
-    background-color: var(--color-bg-2);
-    border: 0px;
-    top: -14px;
-    right: -700px;
-    outline: 0;
-    border-top: 1px solid rgb(225, 226, 227);
-    border-bottom: 1px solid rgb(225, 226, 227);
-    border-left: 1px solid rgb(225, 226, 227);
-    border-right:1px solid rgb(225, 226, 227); 
-    z-index: 2;
-}
-
-header .section--2 .input .form .map {
-    position: relative;
-    right: 30px;
+header .section--2 .form .first .search{
     width: 25px;
-    z-index: 3;
+    margin-left: -30px;
 }
 
-header .section--2 .input .form .input_2::placeholder {
-    text-align: center;
-    font-size: 18px;
-    position: relative;
-    top:8px;
-    right: 15px;
+header .section--2 .form .first .input_1 {
+    padding-left: 20px;
+    font-size: 17px;
 }
 
-header .section--2 .input .form .cauta {
-    font-size: 18px;
-    position: relative;
-    color: var(--color-bg-1);
-    background-color:var(--color-bg-2);
-    top: -83px;
-    right: -1050px;
-    padding:22px 10px;
-    z-index: 4;
-    border-top: 1px solid rgb(225, 226, 227);
-    border-bottom: 1px solid rgb(225, 226, 227);
-    border-left: 1px solid rgb(225, 226, 227);
-    border-right:1px solid rgb(225, 226, 227); 
+header .section--2 .form .first .input_1::placeholder{
+    color: #002f34;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
 }
 
 
-header .section--2 .input .form .cauta:hover{
-    color: var(--color-bg-2);
-    background-color: var(--color-bg-1);
-    transition: all 0.1s ease-in-out;
+header .section--2 .form .second {
+    padding:21px 55px 21px 30px ;
+    background-color: var(--color-bg-3);
+    border-right: 1px solid #f2f4f5;
 }
 
-header .section--2 .input .form .search:hover , .cauta:hover {
-    fill: var(--color-bg-3)
+header .section--2 .form .second .input_2 {
+    padding-left: 20px;
+    font-size: 17px;
 }
 
-header .section--2 .input .form .search1{
-    position: relative;
-    right: -1180px;
-    top: -130px;
-    width: 27px;
-    z-index: 4;
+header .section--2 .form .second .map{
+    width: 20px;
+    margin-left: px;
+}
+
+
+header .section--2 .input .input_1 , .input_2 {
+    border: none;
+}
+
+header .section--2 .input .input_1:focus, .input_2:focus {
+    outline: none;
 }
 
 /* !! Container */
