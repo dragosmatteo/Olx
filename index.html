@@ -12,7 +12,7 @@
     <title>Anunturi Gratuite - Peste 4 milioane de anunturi din apropierea ta</title>
 </head>
   <body>   
-  <script defer src="script.js"></script>
+  <!-- <script defer src="script.js"></script> -->
 
   <!-- !Header! -->
 
@@ -39,18 +39,18 @@
 
         <div class="input">
 
-          <form class="form">
+          <form class="form" id="myForm" enctype="application/x-www-form-urlencoded">
             <div class="first">
             <img src="./images/search.svg" class="search" alt="search1">
-            <input type="text" placeholder="4 711 293 anunturi din apropierea ta" class="input_1">
+            <input type="text" placeholder="4 711 293 anunturi din apropierea ta" class="input_1" id="searchTxt" name="anunturi">
           </div>
 
           <div class="second">
             <img src="./images/map.svg" class="map" alt="map">
-            <input type="text" placeholder="Toata Romania" class="input_2">
+            <input type="text" placeholder="Toata Romania" class="input_2" id="searchTxt1" name="tara">
           </div>
 
-            <a href="#"><p class="cauta"><strong>Cauta acum</strong></p></a>
+            <a href="#"><p class="cauta" id="caut"><strong>Cauta acum</strong></p></a>
             <img src="./images/search.svg" class="search1" alt="serach">
           </form>
 
@@ -997,5 +997,7 @@
     </div>
     <p class="coded">Coded by <a href="https://dragosmatteo.github.io/" target="_blank" class="link">Dragos Matteo</a></p>
   </footer>
+
+  <script src="./script.js"></script>
 </body>
 </html>
