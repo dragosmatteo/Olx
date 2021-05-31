@@ -137,6 +137,11 @@ header .section--2 .form .first {
     border-right: 1px solid #f2f4f5;
 }
 
+header .section--2 .form .first .search, .map, .search1 {
+    position: relative;
+    top:4px;
+} 
+
 header .section--2 .form .first .search{
     width: 25px;
     margin-left: -30px;
